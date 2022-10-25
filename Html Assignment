@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Lab Web</title>
+    <style>
+      video{
+        width: 300px;
+        
+      }
+      em { 
+        color: blueviolet;
+        font-style: normal;
+      }
+      img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+      ul {
+        list-style-type: none;
+      }
+      table ,td,th {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      thead{
+        text-align: left;
+      }
+      tfoot{
+        text-align: left;
+      }
+      div.Movies{
+
+        background-color:bisque;
+        width: 400px;
+      }
+      .highlight{
+
+        background-color: blanchedalmond;
+      }
+      
+   
+    </style>
+  </head>
+  <body>
+    <span class="highlight">IMDB</span> Rating are Availaible on this site
+    <article class="Movie">
+      <p><mark>Take</mark> a little walk at the edge of town</p>
+      <figure>
+        <img src="" alt="">
+        <p>Published at <time datetime="2020-01-08 17:00">January 8 2020 5:00pm</time></p>
+        <figcaption>Published by tommy shelby</figcaption>
+      </figure>
+    </article>
+    <dl>
+      <dt>PB</dt>
+      <dd>Peaky Blinders</dd>
+      <dt>IBM</dt>
+      <dd>Internation Business Machine</dd>
+    </dl>
+    <ol>
+      <li>Season 1</li>
+      <li>Season 2</li>
+      <li>Season 3</li>
+    </ol>
+    <ul>
+      <p>Popoular TV Series</p>
+      <li>Uyanus Buyuk</li>
+      <li>AlpARSLAN</li>
+      <li>Pablo Escobar</li>
+      <ul>
+        <li>Season 1</li>
+        <li>Season 2</li>
+        <li>Season 3</li>
+      </ul>
+      <li>Peaky Blinders</li>
+      </ul>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolore corporis esse in asperiores sint modi facilis ea ut mollitia aut veniam, corrupti nihil? At ea a fugit soluta eveniet.
+      <h1>Heading 1</h1>
+      <video controls autoplay loop src="videos/Nature.mp4"></video>
+      <audio src=""></audio>
+      <h2>Uyanis Buyuk selcuklu</h2>
+      <p>Best Turkish series I watch</p>
+      <p>----------------------------</p>
+      <p>My Favourite Turkish serial is <em>AlpARSLAN</em>!</p>
+    <p>I love to watch to <strong>TURKISH DRAMA SERIES<strong>!</p>
+        <p>I also love to Watch &lt;Ertugrul&gt; &copy;</p>
+        <a href="company/about.html">Download the Season 1</a>
+        <a href="Images/imii.jpeg" download>Emoji's Poster</a>
+        <a href="#Section AlpARSLAN">AlpARSLAN-Scrip</a>
+        <a href="#Section PABLO">Pablo Escobar scrip</a>
+        <a href="https://cineb.net" target="_blank">cineb.net</a>
+        <h2>Uyanis Buyuk selcuk Scrip</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur omnis voluptatibus, reiciendis quidem obcaecati explicabo at labore sit! Consequuntur ex expedita facilis enim modi nihil, doloremque quia nostrum nam.</p>
+        <h2 id="Section AlpARSLAN">AlpARSLAN Scrip</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sunt, dolorem adipisci iusto impedit exercitationem suscipit consectetur illum voluptatem nisi vero, non dicta nam inventore necessitatibus blanditiis vel voluptates ipsam!</p>
+        <img src="Images/wars.jpg" alt="This is a Historical Palace">
+        <h2>Peaky Blinders Scrip</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error recusandae animi accusamus ad aspernatur quis qui fuga dolor! Reprehenderit, ipsum explicabo nostrum magnam ducimus eveniet inventore ab fuga beatae amet.</p>
+        <h2>The DARK Scrip</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur quas repudiandae harum molestiae placeat? Minus reprehenderit consequatur iure aliquam nam corrupti. Dolorem repellendus quasi eos inventore, aspernatur eveniet obcaecati ipsam.</p>
+        <h2 id="Section PABLO">Pablo escobar Scrip</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, possimus qui ipsum velit voluptate doloremque minus natus facere distinctio tempora. Eum debitis excepturi sapiente, impedit deleniti laborum nesciunt adipisci dolore.</p>
+        <table>
+          <thead>
+            <tr >
+              <th colspan="2">Popular TV Series</th>
+            </tr>
+            <tr>
+              <th>Series</th>
+              <th>Seasons</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Peaky Blinders</td>
+              <td>Five</td>
+            </tr>
+            <tr>
+              <td>Pablo Escobar</td>
+              <td>Seven</td>
+            </tr>
+            <tfoot>
+              <tr>
+                <th>IMDB Rating</th>
+                <th>8.5+</th>
+              </tr>
+            </tfoot>
+          </tbody>
+        </table>
+        <div class="Movies">
+          <p>This website is about movies</p>
+          <a href="#">View latest</a>
+        </div>
+
+        <a href="#">Jump to Top</a>
+        
+  </body>
+</html>
+ 
